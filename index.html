@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto de Clase </title>
+    <title>Proyecto de Clase  </title>
 </head>
 <body>
     <video src="rugido.mp4" width="50%" height="50%" muted controls autoplay>
@@ -11,19 +11,34 @@
     </video>
 
 
- <audio controls loop>
+    <audio controls loop>
         <source src="audio.mp3" type="audio/mp3">
     </audio>
 
- <form>
+    <form action="index2.html">
         <h1 style="color: red;">Mi primer Formulario </h1>
         <label for="codigo">Codigo del estudiante:</label>
         <input name="codigo" type="text" id="codigo" placeholder="ingrese el codigo"> <br><br>
-        <label for="codigo">Nombre del estudiante:</label>
+        <label for="nombre">Nombre del estudiante:</label>
         <input name="monbre" type="text" id="nombre" placeholder="ingrese el  nombre"> <br><br>
-        <label for="codigo">Edad del estudiante:</label>
-        <input name="precio" type="text" id="precio" placeholder="ingrese el precio"> <br><br>
+        <label for="precio">Edad del estudiante:</label>
+        <input name="precio" type="text" id="precio" placeholder="ingresa la edad "> <br><br>
+        <input type="submit" value="Grabar">
     </form >
+
+    <form>
+        <label for="dni">DNI</label>
+        <input type="radio" id="DNI"  checked>
+
+        <label for="pasaporte">PASAPORTE</label>
+        <input type="radio" id="pasaporte" >
+
+        <label for="otro">OTRO</label>
+        <input type="radio" id="otro">
+        
+    </form>
+
+
 
 </body>
 </html>
